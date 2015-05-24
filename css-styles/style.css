@@ -1,0 +1,12 @@
+/*
+CSS style for the general page format throughout the web site
+*/
+body{
+    background-image: url("../images/home.png");
+}
+.img-responsive {
+    margin: 0 auto;
+}
+.trans{
+	color: transparent;
+}
