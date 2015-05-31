@@ -142,7 +142,7 @@ jQuery(document).ready(function($) {
             $("#make").append("<a href='javascript:void(0)' class='btn btn-info' id='backToSub'>Back</a>");
             $("#make").append("<a href='javascript:void(0)' class='btn btn-info' id='backtosem'>Semester navigation</a>");
             for (var i = 0; i < arr.length ;i++) {
-                $("#make").append("<a href="+arr[i].link+" target='_blank'><h1>"+arr[i].topic+"<h1></a>");
+                $("#make").append("<a href=fileshare?resID="+arr[i].id+" target='_blank'><h1>"+arr[i].topic+"<h1></a>");
                 $("#make").append("<blockquote class='text-justify'>"+arr[i].description+"</blockquote>");
             }; 
         });

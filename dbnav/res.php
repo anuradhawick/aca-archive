@@ -1,7 +1,7 @@
 <?php
 	/**
 	* This class communicate with the DB to render the resource page
-	* ouput JSON array of total and objects each of : topic,description,linl
+	* ouput JSON array of total and objects each of : topic,description,link,id
 	*/
 	class resourcepage
 	{
@@ -29,6 +29,7 @@
 				$resource["description"] = $row["description"];
 				$resource["link"] = $row["link"];
 				$resource["total"] = $total;
+				$resource["id"] = $row["idresource"];
 				$resources[$i] = $resource;
 				$i ++;
 			}
